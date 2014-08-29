@@ -56,6 +56,12 @@
                 android:layout_height="wrap_content"
                 android:text="Turn off"
                 android:onClick="off" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scan for devices/Cancel"
+                android:onClick="findDevices" />
 
             <ListView
                 android:id="@+id/listView1"
